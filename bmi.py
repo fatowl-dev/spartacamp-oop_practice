@@ -26,8 +26,11 @@ class BMI:
 
 # BMIクラスのインスタンス化
 hibiki_bmi = BMI(height=1.80, weight=67.0)
-
+print('Hibiki')
 print(hibiki_bmi.height, hibiki_bmi.weight)
 print(hibiki_bmi.calculate_bmi())
 
 ohira_bmi = BMI(height=1.78, weight=75.0)
+print('Ohira')
+print(ohira_bmi.height, ohira_bmi.weight)
+print(ohira_bmi.calculate_bmi())
