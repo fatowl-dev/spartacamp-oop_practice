@@ -24,10 +24,14 @@ class Circle:
 # assert circle3.area() == 28.27
 # assert circle3.perimeter() == 18.85
 
+def display_format(number):
+    return f'{number:.2f}'
+
+
 circle1 = Circle(radius=1)
-print(circle1.area())  # 3.14
-print(circle1.perimeter())  # 6.28
+print(display_format(circle1.area()))  # 3.14
+print(display_format(circle1.perimeter()))  # 6.28
 
 circle3 = Circle(radius=3)
-print(circle3.area())  # 28.27
-print(circle3.perimeter())  # 18.85
+print(display_format(circle3.area()))  # 28.27
+print(display_format(circle3.perimeter()))  # 18.85
